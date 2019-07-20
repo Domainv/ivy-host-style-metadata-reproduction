@@ -1,3 +1,5 @@
-Reproduction of issue inside unit tests
+Reproduction of host:style metadata breaking change
 
-'ng test' finish with success only if Ivy disabled
+ng serve with "enableIvy: false" child component do not have background
+
+ng serve with "enableIvy: true" child component is getting a red background from parent component
